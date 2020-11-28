@@ -5,7 +5,7 @@
 
 Learn about the missions and astronauts that formed NASA’s Apollo space program.
 
-## Screenshots
+## Resizing images to fit the screen using `GeometryReader`
 
 | Original Size Image            | Clipped Image                  |
 | ------------------------------ | ------------------------------ |
@@ -22,6 +22,18 @@ Learn about the missions and astronauts that formed NASA’s Apollo space progra
 | Using Geometry Reader w/o fixed height |
 | -------------------------------------- |
 | ![ss07](.screenshots/ss07.png)         |
+
+# How `ScrollView`s lets us work with scrolling data
+
+| Basic ScrollView               | ScrollView with infinity width |
+| ------------------------------ | ------------------------------ |
+| ![ss08](.screenshots/ss08.png) | ![ss09](.screenshots/ss09.png) |
+
+| List vs ScrollView (better performance) |
+| --------------------------------------- |
+| ![ss10](.screenshots/ss10.png)          |
+
+
 
 ---
 
