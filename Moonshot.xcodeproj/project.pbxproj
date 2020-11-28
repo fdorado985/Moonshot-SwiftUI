@@ -13,6 +13,10 @@
 		A9036A9C25722AD90008DDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9036A9B25722AD90008DDDD /* Assets.xcassets */; };
 		A9036A9F25722AD90008DDDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9036A9E25722AD90008DDDD /* Preview Assets.xcassets */; };
 		A9036AA225722AD90008DDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9036AA025722AD90008DDDD /* LaunchScreen.storyboard */; };
+		A92032D82572CD99004B8635 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = A92032D62572CD98004B8635 /* missions.json */; };
+		A92032D92572CD99004B8635 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = A92032D72572CD99004B8635 /* astronauts.json */; };
+		A92032DC2572CE60004B8635 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032DB2572CE60004B8635 /* Astronaut.swift */; };
+		A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A9036A9E25722AD90008DDDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9036AA125722AD90008DDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9036AA325722AD90008DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92032D62572CD98004B8635 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		A92032D72572CD99004B8635 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		A92032DB2572CE60004B8635 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		A9036A9425722AD80008DDDD /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				A92032D72572CD99004B8635 /* astronauts.json */,
+				A92032D62572CD98004B8635 /* missions.json */,
 				A9036A9525722AD80008DDDD /* AppDelegate.swift */,
 				A9036A9725722AD80008DDDD /* SceneDelegate.swift */,
 				A9036A9925722AD80008DDDD /* ContentView.swift */,
@@ -63,6 +73,8 @@
 				A9036AA025722AD90008DDDD /* LaunchScreen.storyboard */,
 				A9036AA325722AD90008DDDD /* Info.plist */,
 				A9036A9D25722AD90008DDDD /* Preview Content */,
+				A92032DB2572CE60004B8635 /* Astronaut.swift */,
+				A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -135,6 +147,8 @@
 			files = (
 				A9036AA225722AD90008DDDD /* LaunchScreen.storyboard in Resources */,
 				A9036A9F25722AD90008DDDD /* Preview Assets.xcassets in Resources */,
+				A92032D82572CD99004B8635 /* missions.json in Resources */,
+				A92032D92572CD99004B8635 /* astronauts.json in Resources */,
 				A9036A9C25722AD90008DDDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,7 +183,9 @@
 			files = (
 				A9036A9625722AD80008DDDD /* AppDelegate.swift in Sources */,
 				A9036A9825722AD80008DDDD /* SceneDelegate.swift in Sources */,
+				A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */,
 				A9036A9A25722AD80008DDDD /* ContentView.swift in Sources */,
+				A92032DC2572CE60004B8635 /* Astronaut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

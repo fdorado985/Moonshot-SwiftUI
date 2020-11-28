@@ -8,29 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-  var body: some View {
-    NavigationView {
-      List(0..<100) { row in
-        NavigationLink(
-          destination: Text("Detail View")) {
-          Text("Row \(row)")
-        }
-      }
-      .navigationBarTitle("SwiftUI")
-    }
-  }
-}
-
-struct CustomText: View {
-  var text: String
+  let astronauts = Bundle.main.decode("astronauts.json")
 
   var body: some View {
-    Text(text)
-  }
-
-  init(_ text: String) {
-    print("Creating a new CustomText")
-    self.text = text
+    Text("\(astronauts.count)")
   }
 }
 
