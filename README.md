@@ -23,7 +23,7 @@ Learn about the missions and astronauts that formed NASA’s Apollo space progra
 | -------------------------------------- |
 | ![ss07](.screenshots/ss07.png)         |
 
-# How `ScrollView`s lets us work with scrolling data
+## How `ScrollView`s lets us work with scrolling data
 
 | Basic ScrollView               | ScrollView with infinity width |
 | ------------------------------ | ------------------------------ |
@@ -33,7 +33,15 @@ Learn about the missions and astronauts that formed NASA’s Apollo space progra
 | --------------------------------------- |
 | ![ss10](.screenshots/ss10.png)          |
 
+## Pushing new views onto the stack using `NavigationLink`
 
+| Create a basic Text on View    | Use a NavigationLink to make Text tapable |
+| ------------------------------ | ----------------------------------------- |
+| ![ss11](.screenshots/ss11.png) | ![ss12](.screenshots/ss12.png)            |
+
+| Use NavigationLink on Lists    |
+| ------------------------------ |
+| ![ss13](.screenshots/ss13.png) |
 
 ---
 
