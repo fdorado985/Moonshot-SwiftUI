@@ -11,7 +11,9 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       VStack {
-        Text("Hello World")
+        NavigationLink(destination: Text("Detail View")) {
+          Text("Hello World")
+        }
       }
       .navigationBarTitle("SwiftUI")
     }
