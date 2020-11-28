@@ -11,8 +11,8 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Image("re3")
+        .resizable()
         .frame(width: 300, height: 300)
-        .clipped()
     }
   }
 }
