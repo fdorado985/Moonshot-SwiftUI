@@ -12,6 +12,7 @@ struct ContentView: View {
     VStack {
       Image("re3")
         .resizable()
+        .aspectRatio(contentMode: .fill)
         .frame(width: 300, height: 300)
     }
   }
