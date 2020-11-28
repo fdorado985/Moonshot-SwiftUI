@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    List {
-      ForEach(0..<100) {
-        CustomText("Item \($0)")
-          .font(.title)
+    NavigationView {
+      VStack {
+        Text("Hello World")
       }
+      .navigationBarTitle("SwiftUI")
     }
   }
 }
