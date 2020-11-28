@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    GeometryReader { geo in
-      Image("re3")
-        .resizable()
-        .aspectRatio(contentMode: .fit)
-        .frame(width: geo.size.width)
+    ScrollView(.vertical) {
+      VStack(spacing: 10) {
+        ForEach(0..<100) {
+          Text("Item \($0)")
+            .font(.title)
+        }
+      }
     }
   }
 }
