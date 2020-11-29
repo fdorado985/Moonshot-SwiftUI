@@ -27,6 +27,7 @@ struct AstronautView: View {
           Divider()
 
           Text("Missions he has participed")
+            .font(.headline)
             .padding()
 
           ForEach(self.missions, id: \.id) { mission in
