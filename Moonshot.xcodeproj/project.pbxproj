@@ -19,6 +19,7 @@
 		A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */; };
 		A92032E22572D338004B8635 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032E12572D338004B8635 /* Mission.swift */; };
 		A92032E5257356CE004B8635 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032E4257356CE004B8635 /* MissionView.swift */; };
+		A92032E825736301004B8635 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032E725736301004B8635 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		A92032E12572D338004B8635 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		A92032E4257356CE004B8635 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		A92032E725736301004B8635 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */,
 				A92032E12572D338004B8635 /* Mission.swift */,
 				A92032E4257356CE004B8635 /* MissionView.swift */,
+				A92032E725736301004B8635 /* AstronautView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				A92032E5257356CE004B8635 /* MissionView.swift in Sources */,
 				A92032E22572D338004B8635 /* Mission.swift in Sources */,
+				A92032E825736301004B8635 /* AstronautView.swift in Sources */,
 				A9036A9625722AD80008DDDD /* AppDelegate.swift in Sources */,
 				A9036A9825722AD80008DDDD /* SceneDelegate.swift in Sources */,
 				A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */,
