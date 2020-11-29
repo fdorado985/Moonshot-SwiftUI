@@ -17,6 +17,7 @@
 		A92032D92572CD99004B8635 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = A92032D72572CD99004B8635 /* astronauts.json */; };
 		A92032DC2572CE60004B8635 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032DB2572CE60004B8635 /* Astronaut.swift */; };
 		A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */; };
+		A92032E22572D338004B8635 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92032E12572D338004B8635 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A92032D72572CD99004B8635 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		A92032DB2572CE60004B8635 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		A92032E12572D338004B8635 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A9036A9D25722AD90008DDDD /* Preview Content */,
 				A92032DB2572CE60004B8635 /* Astronaut.swift */,
 				A92032DE2572CEDB004B8635 /* Bundle-Decodable.swift */,
+				A92032E12572D338004B8635 /* Mission.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92032E22572D338004B8635 /* Mission.swift in Sources */,
 				A9036A9625722AD80008DDDD /* AppDelegate.swift in Sources */,
 				A9036A9825722AD80008DDDD /* SceneDelegate.swift in Sources */,
 				A92032DF2572CEDB004B8635 /* Bundle-Decodable.swift in Sources */,
