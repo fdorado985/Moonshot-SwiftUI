@@ -26,6 +26,15 @@ struct MissionView: View {
             .frame(maxWidth: geometry.size.width * 0.7)
             .padding(.top)
 
+          HStack {
+            Spacer()
+
+            Text(self.mission.formattedLaunchDate)
+              .font(.footnote)
+              .fontWeight(.bold)
+          }
+          .padding(.horizontal)
+
           Text(self.mission.description)
             .padding()
 
