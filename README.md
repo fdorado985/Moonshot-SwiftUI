@@ -45,4 +45,8 @@ Learn about the missions and astronauts that formed NASA’s Apollo space progra
 
 ---
 
+## Demo
+
+![demo](.screenshots/demo.gif)
+
 **MIT License**
